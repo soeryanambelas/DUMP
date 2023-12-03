@@ -9,7 +9,7 @@ except KeyError:
 if __name__ == "__main__":
 	os.system("git pull")
 	if "Indonesia" == fc:
-		__import__("dump").menu()
+		__import__("Dump_regex").menu()
 	else:
 		print("[*] tools ini hanya support/berlaku di indonesia.")
 		exit()
